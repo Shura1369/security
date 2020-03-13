@@ -20,7 +20,7 @@ public class PersonRESTRController {
             )
     );
 
-    @RequestMapping("/list")
+    @RequestMapping("/get/list")
     public  List<Person> showAll()
     {
         return persons;
